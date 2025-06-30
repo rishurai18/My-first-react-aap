@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
 import Navbar from "./component/Navbar";
+import TextForm from "./component/TextForm";
 
 
 
@@ -8,7 +9,11 @@ import Navbar from "./component/Navbar";
 function App() {
   return (
     <>
-       <Navbar/>
+       <Navbar title = "TextUtil" aboutText = "About us" />
+       <div className="container my-3" >
+         <TextForm heading= "This is a simple text form"/>
+       </div>
+      
     </>
   );
 }
